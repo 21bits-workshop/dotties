@@ -1,0 +1,14 @@
+@define-color base1		#1a1918;
+@define-color base2		#807e79;
+@define-color base3		#999791;
+@define-color base4		#b3b1ad;
+@define-color base5		#cccbc6;
+@define-color base6		#e6e4df;
+@define-color base7		#faf2eb;
+
+@define-color light_highlight	#fae1c8;
+@define-color bright_highlight	#f27900;
+@define-color light_secondary	#d4d4fa;
+@define-color bright_secondary 	#1818a8;
+@define-color tertiary		#907aa9;
+@define-color muted_tertiary	#9893a5;

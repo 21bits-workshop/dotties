@@ -1,0 +1,6 @@
+style=/home/takomo/.config/wofi/wofi.css
+width=33%
+height= 25%
+prompt=Enter a search term...
+allow_images=true
+image_size=20

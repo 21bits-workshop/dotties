@@ -1,0 +1,134 @@
+@import "warmlight.css";
+
+* {
+  font-family: Ubuntu Nerd Font;
+  font-size: 9pt;
+  font-weight: 700;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @base7;
+  margin: 0px 5px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  background-color: @base7;
+  margin-left: 1rem;
+  opacity: 0.7;
+  border: 0.5px solid @base4;
+}
+
+#workspaces button {
+  color: @light_secondary;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @bright_highlight;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @light_highlight;
+}
+
+#window {
+	border-radius: 1rem;
+	padding: 0.2rem 1rem;
+	margin: 5px;
+	background-color: @base7;
+	color: @base1;
+	margin-left: 1rem;
+	opacity: 0.7;
+	transition: all 0.5s ease-out;
+	border: 0.5px solid @base4;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power, 
+#custom-apps{
+  background-color: @base7;
+  padding: 0rem 1rem;
+  margin: 5px 0;
+  opacity: 0.7;
+  border: 0.5px solid @base4;
+}
+
+#clock {
+  color: @base1;
+  border-radius: 0px 1rem 1rem 0px;
+  border-left: none;
+  margin-right: 1rem;
+}
+
+#battery {
+  color: @base1;
+}
+
+#battery.charging {
+  color: @base1;
+}
+
+#battery.warning:not(.charging) {
+  color: @base1;
+}
+
+#backlight {
+  color: @base1;
+}
+
+#backlight, #battery {
+    border-radius: 0;
+}
+
+#pulseaudio {
+  color: @base1;
+  border-radius: 1rem 0px 0px 1rem;
+  border-right: none;
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: @base1;
+  border-radius: 1rem;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    color: @base1;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: @base1;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+#custom-apps {
+	background-color: @light_secondary;	
+  	border: 6px solid @base7;
+	border-radius: 1rem;
+	margin-left: 1rem;
+	color: @base1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+#custom-apps:hover {
+	background-color: @bright_highlight;
+}

@@ -1,0 +1,48 @@
+* {
+	font-family: Ubuntu Nerd Font;
+	font-weight: 700;
+}
+
+#window {
+        border-radius: 1rem;
+	background: rgba(26,25,24, .99);
+
+}
+#input {
+	background-color: #807e79;
+	border-color: #666666;
+	border-radius: 1.2em;
+	color: #faf2eb;
+        margin: .25em 5em .25em 5em;
+        font-size: 15pt;
+}
+.entry {
+        margin: .1em;
+        font-size: 12pt;
+	color: #1a1918;
+}
+#entry {
+	background: transparent;
+        padding: .25em;
+}
+#entry:selected {
+	outline: none;
+        background: linear-gradient(90deg, #1a1918, #fae1c8,  #fae1c8, #1a1918);
+}
+#text {
+	color: #faf2eb;
+	padding: 3px;
+	border-radius: 4rem;
+}
+#text:selected {
+	background: transparent;
+}
+
+image {
+        margin-left: .25em;
+        margin-right: .25em;
+	background: transparent;
+}
+
+
+
